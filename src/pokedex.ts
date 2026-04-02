@@ -6,17 +6,17 @@
  * for a given userId. Outputs a complete pokedex JSON.
  *
  * Usage:
- *   bun buddy-pokedex.ts                          # use own userId, 165000 salts
- *   bun buddy-pokedex.ts --count 500000            # custom iteration count
- *   bun buddy-pokedex.ts --uid <userId>            # custom userId
- *   bun buddy-pokedex.ts --target legendary,cat    # stop when specific combo found
+ *   bun src/pokedex.ts                          # use own userId, 165000 salts
+ *   bun src/pokedex.ts --count 500000            # custom iteration count
+ *   bun src/pokedex.ts --uid <userId>            # custom userId
+ *   bun src/pokedex.ts --target legendary,cat    # stop when specific combo found
  */
 
 import { readFileSync, writeFileSync } from "fs";
 import { homedir } from "os";
 import { join } from "path";
 
-// === Algorithm (identical to buddy-verify.ts) ===
+// === Algorithm (identical to src/verify.ts) ===
 
 function aN4(str: string): number {
   return Number(BigInt(Bun.hash(str)) & 0xFFFFFFFFn);
@@ -213,7 +213,7 @@ for (const e of legendaries) {
 console.log();
 
 // Write full pokedex
-const outFile = `buddy-pokedex-${userId.slice(0, 8)}.json`;
+const outFile = `data/pokedex-${userId.slice(0, 8)}.json`;
 writeFileSync(outFile, JSON.stringify({
   userId,
   generatedAt: new Date().toISOString(),

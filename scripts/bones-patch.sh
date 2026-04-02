@@ -13,13 +13,13 @@
 # Only single-char variable names change across versions.
 #
 # Usage:
-#   ./buddy-bones-patch.sh patch              Reverse spread in zC()
-#   ./buddy-bones-patch.sh inject <json>      Inject bones into ~/.claude.json
-#   ./buddy-bones-patch.sh restore            Restore from backup
-#   ./buddy-bones-patch.sh verify             Check current state
+#   ./scripts/bones-patch.sh patch              Reverse spread in zC()
+#   ./scripts/bones-patch.sh inject <json>      Inject bones into ~/.claude.json
+#   ./scripts/bones-patch.sh restore            Restore from backup
+#   ./scripts/bones-patch.sh verify             Check current state
 #
 # After patching, store desired bones in companion JSON:
-#   ./buddy-bones-patch.sh inject '{"rarity":"legendary","species":"cat",...}'
+#   ./scripts/bones-patch.sh inject '{"rarity":"legendary","species":"cat",...}'
 # =============================================================================
 
 set -euo pipefail
@@ -133,7 +133,7 @@ do_inject() {
   local config="$HOME/.claude.json"
   local script_dir
   script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-  local presets_file="$script_dir/buddy-presets.json"
+  local presets_file="$script_dir/../data/presets.json"
 
   if [[ ! -f "$config" ]]; then
     echo "ERROR: $config not found" >&2
@@ -258,7 +258,7 @@ else:
 do_list() {
   local script_dir
   script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-  local presets_file="$script_dir/buddy-presets.json"
+  local presets_file="$script_dir/../data/presets.json"
 
   if [[ ! -f "$presets_file" ]]; then
     echo "ERROR: No presets file at $presets_file" >&2

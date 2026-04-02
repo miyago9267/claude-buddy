@@ -3,9 +3,9 @@
 # Claude Code /buddy Salt Patcher
 #
 # Usage:
-#   ./buddy-patch.sh <new-salt>
-#   ./buddy-patch.sh --restore
-#   ./buddy-patch.sh --verify
+#   ./scripts/patch.sh <new-salt>
+#   ./scripts/patch.sh --restore
+#   ./scripts/patch.sh --verify
 #
 # The new salt MUST be exactly 15 characters (same length as "friend-2026-401")
 # =============================================================================
@@ -109,7 +109,7 @@ do_patch() {
 
   echo ""
   echo "Next steps:"
-  echo "  1. Run: bun /Users/miyago/Downloads/buddy-verify.ts '$new_salt'"
+  echo "  1. Run: bun src/verify.ts '$new_salt'"
   echo "  2. Start Claude Code and run /buddy"
   echo ""
   echo "To restore: $0 --restore"

@@ -2,7 +2,7 @@
 /**
  * Buddy Battle -- Roguelike CLI pet battle (v2)
  * Poll-mode terminal UI with ASCII sprites
- * Usage: bun buddy-battle.ts
+ * Usage: bun src/battle.ts
  */
 
 // ─── PRNG (from buddy system) ───

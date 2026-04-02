@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "Claude Code /buddy reverse engineering toolkit + roguelike battle game",
   "scripts": {
-    "battle": "bun buddy-battle.ts",
-    "pokedex": "bun buddy-pokedex.ts",
-    "verify": "bun buddy-verify.ts"
+    "battle": "bun src/battle.ts",
+    "pokedex": "bun src/pokedex.ts",
+    "verify": "bun src/verify.ts"
   },
   "devDependencies": {
     "bun-types": "latest"

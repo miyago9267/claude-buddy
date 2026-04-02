@@ -6,10 +6,10 @@
  * what bones will be produced before actually running /buddy.
  *
  * Usage:
- *   bun buddy-verify.ts [salt]                  -- visual display
- *   bun buddy-verify.ts --json [salt]            -- JSON output (single)
- *   bun buddy-verify.ts --bulk <file>            -- bulk generate from userId list
- *   bun buddy-verify.ts --bulk <file> [salt]     -- bulk with custom salt
+ *   bun src/verify.ts [salt]                  -- visual display
+ *   bun src/verify.ts --json [salt]            -- JSON output (single)
+ *   bun src/verify.ts --bulk <file>            -- bulk generate from userId list
+ *   bun src/verify.ts --bulk <file> [salt]     -- bulk with custom salt
  *
  * Bulk file format: one userId per line (or JSON array of strings)
  */
@@ -243,7 +243,7 @@ if (bulkIdx !== -1) {
   // --bulk <file> [salt]
   const file = args[bulkIdx + 1];
   if (!file || !existsSync(file)) {
-    console.error("Usage: bun buddy-verify.ts --bulk <userids-file> [salt]");
+    console.error("Usage: bun src/verify.ts --bulk <userids-file> [salt]");
     process.exit(1);
   }
   const salt = args[bulkIdx + 2] || "friend-2026-401";
