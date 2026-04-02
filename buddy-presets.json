@@ -1,0 +1,286 @@
+{
+  "brineclaw": {
+    "rarity": "legendary",
+    "species": "cat",
+    "eye": "@",
+    "hat": "tinyduck",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 58,
+      "PATIENCE": 74,
+      "CHAOS": 100,
+      "WISDOM": 53,
+      "SNARK": 78
+    }
+  },
+  "axolotl-shiny": {
+    "rarity": "legendary",
+    "species": "axolotl",
+    "eye": "@",
+    "hat": "none",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 59,
+      "PATIENCE": 100,
+      "CHAOS": 85,
+      "WISDOM": 51,
+      "SNARK": 84
+    },
+    "_salt": "gzleaaaaaaaaaaa"
+  },
+  "blob-shiny": {
+    "rarity": "legendary",
+    "species": "blob",
+    "eye": "°",
+    "hat": "propeller",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 52,
+      "PATIENCE": 70,
+      "CHAOS": 100,
+      "WISDOM": 89,
+      "SNARK": 86
+    },
+    "_salt": "823maaaaaaaaaaa"
+  },
+  "cactus-shiny": {
+    "rarity": "legendary",
+    "species": "cactus",
+    "eye": "@",
+    "hat": "wizard",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 49,
+      "PATIENCE": 87,
+      "CHAOS": 100,
+      "WISDOM": 79,
+      "SNARK": 80
+    },
+    "_salt": "zgsmaaaaaaaaaaa"
+  },
+  "capybara-shiny": {
+    "rarity": "legendary",
+    "species": "capybara",
+    "eye": "×",
+    "hat": "wizard",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 54,
+      "PATIENCE": 85,
+      "CHAOS": 100,
+      "WISDOM": 88,
+      "SNARK": 71
+    },
+    "_salt": "z22uaaaaaaaaaaa"
+  },
+  "cat-shiny": {
+    "rarity": "legendary",
+    "species": "cat",
+    "eye": "@",
+    "hat": "tinyduck",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 46,
+      "PATIENCE": 71,
+      "CHAOS": 87,
+      "WISDOM": 100,
+      "SNARK": 81
+    },
+    "_salt": "xyqaaaaaaaaaaaa"
+  },
+  "chonk-shiny": {
+    "rarity": "legendary",
+    "species": "chonk",
+    "eye": "·",
+    "hat": "propeller",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 72,
+      "PATIENCE": 46,
+      "CHAOS": 100,
+      "WISDOM": 86,
+      "SNARK": 66
+    },
+    "_salt": "_3yeaaaaaaaaaaa"
+  },
+  "dragon-shiny": {
+    "rarity": "legendary",
+    "species": "dragon",
+    "eye": "·",
+    "hat": "crown",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 56,
+      "PATIENCE": 89,
+      "CHAOS": 100,
+      "WISDOM": 43,
+      "SNARK": 88
+    },
+    "_salt": "5-61aaaaaaaaaaa"
+  },
+  "duck-shiny": {
+    "rarity": "legendary",
+    "species": "duck",
+    "eye": "✦",
+    "hat": "tinyduck",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 100,
+      "PATIENCE": 84,
+      "CHAOS": 48,
+      "WISDOM": 79,
+      "SNARK": 65
+    },
+    "_salt": "-tasaaaaaaaaaaa"
+  },
+  "ghost-shiny": {
+    "rarity": "legendary",
+    "species": "ghost",
+    "eye": "@",
+    "hat": "halo",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 45,
+      "PATIENCE": 86,
+      "CHAOS": 100,
+      "WISDOM": 89,
+      "SNARK": 70
+    },
+    "_salt": "m3oqaaaaaaaaaaa"
+  },
+  "goose-shiny": {
+    "rarity": "legendary",
+    "species": "goose",
+    "eye": "✦",
+    "hat": "halo",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 100,
+      "PATIENCE": 79,
+      "CHAOS": 52,
+      "WISDOM": 69,
+      "SNARK": 89
+    },
+    "_salt": "glj2aaaaaaaaaaa"
+  },
+  "mushroom-shiny": {
+    "rarity": "legendary",
+    "species": "mushroom",
+    "eye": "°",
+    "hat": "halo",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 67,
+      "PATIENCE": 87,
+      "CHAOS": 48,
+      "WISDOM": 100,
+      "SNARK": 77
+    },
+    "_salt": "qqn5aaaaaaaaaaa"
+  },
+  "octopus-shiny": {
+    "rarity": "legendary",
+    "species": "octopus",
+    "eye": "✦",
+    "hat": "beanie",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 78,
+      "PATIENCE": 54,
+      "CHAOS": 100,
+      "WISDOM": 65,
+      "SNARK": 87
+    },
+    "_salt": "k-f6aaaaaaaaaaa"
+  },
+  "owl-shiny": {
+    "rarity": "legendary",
+    "species": "owl",
+    "eye": "@",
+    "hat": "propeller",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 82,
+      "PATIENCE": 86,
+      "CHAOS": 100,
+      "WISDOM": 46,
+      "SNARK": 83
+    },
+    "_salt": "m32laaaaaaaaaaa"
+  },
+  "penguin-shiny": {
+    "rarity": "legendary",
+    "species": "penguin",
+    "eye": "◉",
+    "hat": "tophat",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 73,
+      "PATIENCE": 100,
+      "CHAOS": 87,
+      "WISDOM": 82,
+      "SNARK": 44
+    },
+    "_salt": "mqfqaaaaaaaaaaa"
+  },
+  "rabbit-shiny": {
+    "rarity": "legendary",
+    "species": "rabbit",
+    "eye": "◉",
+    "hat": "propeller",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 83,
+      "PATIENCE": 41,
+      "CHAOS": 81,
+      "WISDOM": 100,
+      "SNARK": 89
+    },
+    "_salt": "o9c3aaaaaaaaaaa"
+  },
+  "robot-shiny": {
+    "rarity": "legendary",
+    "species": "robot",
+    "eye": "°",
+    "hat": "halo",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 50,
+      "PATIENCE": 100,
+      "CHAOS": 83,
+      "WISDOM": 72,
+      "SNARK": 87
+    },
+    "_salt": "wk2naaaaaaaaaaa"
+  },
+  "snail-shiny": {
+    "rarity": "legendary",
+    "species": "snail",
+    "eye": "✦",
+    "hat": "halo",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 83,
+      "PATIENCE": 54,
+      "CHAOS": 100,
+      "WISDOM": 83,
+      "SNARK": 85
+    },
+    "_salt": "_w-maaaaaaaaaaa"
+  },
+  "turtle-shiny": {
+    "rarity": "legendary",
+    "species": "turtle",
+    "eye": "°",
+    "hat": "beanie",
+    "shiny": true,
+    "stats": {
+      "DEBUGGING": 74,
+      "PATIENCE": 77,
+      "CHAOS": 85,
+      "WISDOM": 42,
+      "SNARK": 100
+    },
+    "_salt": "_6o0aaaaaaaaaaa"
+  }
+}
